@@ -1,0 +1,38 @@
+﻿生成启动时间为 2018/2/21 1:05:51。
+     1>项目“C:\Users\杨杰\Documents\Visual Studio 2010\Projects\Client\Client\Client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Client.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClientDlg.cpp
+         ClientDlg.cpp
+     1>ClientDlg.cpp(250): warning C4018: “<”: 有符号/无符号不匹配
+     1>ClientDlg.cpp(252): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>ClientDlg.cpp(260): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>ClientDlg.cpp(393): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>ClientDlg.cpp(451): warning C4018: “<”: 有符号/无符号不匹配
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\杨杰\Documents\Visual Studio 2010\Projects\Client\Release\Client.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\杨杰\Documents\Visual Studio 2010\Projects\Client\Release\Client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\杨杰\Documents\Visual Studio 2010\Projects\Client\Release\Client.lib" /MACHINE:X86 Release\Client.res
+         Release\Client.obj
+         Release\ClientDlg.obj
+         Release\NL_QQwry.obj
+         Release\stdafx.obj
+         Release\TcpTran.obj
+         正在生成代码
+         已完成代码的生成
+         Client.vcxproj -> C:\Users\杨杰\Documents\Visual Studio 2010\Projects\Client\Release\Client.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\杨杰\Documents\Visual Studio 2010\Projects\Client\Release\Client.exe;#1" /manifest Release\Client.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Client.unsuccessfulbuild”。
+         正在对“Release\Client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\杨杰\Documents\Visual Studio 2010\Projects\Client\Client\Client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.50
